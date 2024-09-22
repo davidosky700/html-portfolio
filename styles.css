@@ -1,0 +1,214 @@
+/*FIRST-SECTION FIRST-SECTION FIRST-SECTION FIRST-SECTION*/
+.first-section {
+	background-image: url("images/image3.jpg");
+	padding-bottom: 2%;
+}
+
+.white {
+	color: #fff;
+}
+
+.first-section span {
+	color: #ff7f3e;
+}
+
+.first-section img {
+	width: 70%;
+}
+
+.first-section h1 {
+	font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.first-section p {
+	 font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 1.5rem;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+}
+
+.intro div {
+	margin: 17% 0 0 0;
+}
+
+.intro-pic {
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+/*SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION SECOND-SECTION*/
+.second-section {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2%;
+}
+
+.second-section img {
+	width: 23%;
+	padding-top: 2%;
+	margin: 0 auto;
+}
+
+/*THIRD-SECTION THIRD-SECTION THIRD-SECTION THIRD-SECTION THIRD-SECTION*/
+.third-section {
+	margin-bottom: 2%;
+	display: flex;
+	text-align: center;
+}
+
+.third-section img {
+	width: 25%;
+	opacity: 0.5;
+}
+
+/*FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION*/
+.fourth-section {
+	background-color: #000000;
+	margin-bottom: 5%;
+	padding-bottom: 2%;
+}
+
+.card-color {
+	background-color: #072541;
+}
+
+.fourth-section h1 {
+	padding: 3% 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+	gap: 1rem;
+}
+
+/*FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION*/
+.fifth-section {
+	margin-bottom: 3%;
+}
+
+.about-me {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fifth-section img {
+	border-radius: 5%;
+	filter: grayscale(100%);
+	width: 30%;
+}
+
+.fifth-section h1 {
+	margin-top: 7%;
+}
+
+/*LAST-SECTION LAST-SECTION LAST-SECTION LAST-SECTION LAST-SECTION LAST-SECTION*/
+.last-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+hr {
+	height: 3px;
+	background-color: black;
+    border: none;
+}
+
+.shape {
+	border-radius: 5%;
+}
+
+.last-section h5 {
+	font-size: 2rem;
+}
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+
+.footer {
+	margin-top: 2%;
+}
+
+
+@media (max-width: 600px) {
+/*FIRST-SECTION FIRST-SECTION <<MEDIA>> FIRST-SECTION FIRST-SECTION*/
+.first-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.first-section img {
+	width: 90%;
+}
+
+.first-section h1 {
+    font-size: 2rem;
+}
+
+.intro-pic {
+	margin-top: 7%;
+}
+
+.first-section p {
+     font-size: 1.2rem;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+/*    padding-top: 18%;*/	
+}
+
+.intro div {
+	margin: 0 0;
+}
+
+.first-section button {
+    font-size: 0.8rem;
+}
+
+/*SECOND-SECTION SECOND-SECTION <<MEDIA>> SECOND-SECTION SECOND-SECTION*/
+
+
+/*THIRD-SECTION THIRD-SECTION << MEDIA>> THIRD-SECTION THIRD-SECTION THIRD-SECTION*/
+.third-section img {
+	width: 35%;
+}
+
+/*FOURTH-SECTION FOURTH-SECTION <<MEDIA>> FOURTH-SECTION FOURTH-SECTION FOURTH-SECTION*/
+.fourth-section {
+	padding-bottom: 0%;
+}
+
+/*FIFTH-SECTION FIFTH-SECTION <<MEDIA>> FIFTH-SECTION FIFTH-SECTION FIFTH-SECTION*/
+.fifth-section img {
+	width: 80%;
+}
+
+/*LAST-SECTION LAST-SECTION <<MEDIA>> LAST-SECTION LAST-SECTION LAST-SECTION LAST-SECTION*/
+.last-section h5 {
+	font-size: 1.5rem;
+}
+
+.shape {
+	font-size: 0.9rem;
+}
+
+}
