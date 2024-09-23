@@ -202,6 +202,10 @@ hr {
 	width: 80%;
 }
 
+.first-section h5 {
+	font-size: 8px;
+}
+
 /*LAST-SECTION LAST-SECTION <<MEDIA>> LAST-SECTION LAST-SECTION LAST-SECTION LAST-SECTION*/
 .last-section h5 {
 	font-size: 1.5rem;
